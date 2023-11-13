@@ -6,8 +6,6 @@ import {
   myArray,
 } from "./jsModules/export.js";
 
-//importerer makeElements fra makeElementsFunction.js
-import { makeElements } from "./jsModules/makeElementsFunction.js";
 //importer test funksjon fra newTestFunction.js
 import { newTestFunction } from "./jsModules/newTestFunction.js";
 
@@ -21,5 +19,4 @@ myFunction("hello");
 console.log(myArray);
 newTestFunction("Test!");
 makeLists();
-console.log(button);
 document.body.appendChild(button);
