@@ -11,13 +11,15 @@ import { makeElements } from "./jsModules/makeElementsFunction.js";
 //importer test funksjon fra newTestFunction.js
 import { newTestFunction } from "./jsModules/newTestFunction.js";
 
+//prøver en mer avansert funksjon.
+import { makeLists } from "./jsModules/makeLists.js";
+
+//importerer button
+import { button } from "./jsModules/makeButton.js";
 //prøver å skjøre de.
 myFunction("hello");
 console.log(myArray);
-const button = makeElements("button", {
-  className: "btn",
-  textContent: "Imported",
-});
 newTestFunction("Test!");
+makeLists();
 console.log(button);
 document.body.appendChild(button);
