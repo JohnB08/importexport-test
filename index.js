@@ -8,6 +8,7 @@ import {
 
 //importerer makeElements fra makeElementsFunction.js
 import { makeElements } from "./jsModules/makeElementsFunction.js";
+//importer test funksjon fra newTestFunction.js
 import { newTestFunction } from "./jsModules/newTestFunction.js";
 
 //prøver å skjøre de.
