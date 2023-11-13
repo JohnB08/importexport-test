@@ -8,6 +8,7 @@ import {
 
 //importerer makeElements fra makeElementsFunction.js
 import { makeElements } from "./jsModules/makeElementsFunction.js";
+import { newTestFunction } from "./jsModules/newTestFunction.js";
 
 //prøver å skjøre de.
 myFunction("hello");
@@ -16,5 +17,6 @@ const button = makeElements("button", {
   className: "btn",
   textContent: "Imported",
 });
+newTestFunction("Test!");
 console.log(button);
 document.body.appendChild(button);
