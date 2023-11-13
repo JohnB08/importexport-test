@@ -1,0 +1,5 @@
+/* Lager en .btn class. Trenger ikke eksporte */
+.btn {
+  width: 90px;
+  height: 30px;
+}

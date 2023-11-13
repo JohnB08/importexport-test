@@ -1,0 +1,3 @@
+/* VIKTIG IMPORT STÅR ØVERST! */
+/* importer .btn class fra button.css */
+@import "./cssComponents/button.css";
