@@ -14,9 +14,10 @@ import { makeLists } from "./jsModules/makeLists.js";
 
 //importerer button
 import { button } from "./jsModules/makeButton.js";
-//prøver å skjøre de.
+
+//prøver å kjøre de.
 myFunction("hello");
 console.log(myArray);
 newTestFunction("Test!");
-makeLists();
+makeLists(myArray);
 document.body.appendChild(button);
